@@ -46,3 +46,33 @@ nav ul li a{
   width: 600px;
   justify-content: center;
 }
+
+
+*{
+  background-color: bisque;
+}
+
+.projects-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.projects-table th {
+  background: #333;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.projects-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.projects-table tr:hover {
+  background: #f4f4f4;
+  transition: 0.3s;
+}
