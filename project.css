@@ -1,52 +1,48 @@
-body {
+
+body{
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
-
-nav {
-  background: #333;
-  padding: 10px;
+nav{
+background-color: bisque;
+padding: 10px;
+  
 }
-
-nav ul {
+nav ul{
   list-style: none;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
-
-nav ul li {
+nav ul li{
   margin: 0 15px;
 }
-
-nav ul li a {
-  color: white;
+nav ul li a{
   text-decoration: none;
+  color: blue;
 }
 
-section {
-  padding: 50px;
-  text-align: center;
+.box-1{
+  display: flex;
+  
+  border: 3px solid black;
+  margin: 10px;
+  width: 600px;
+  justify-content: center;
 }
-
-#home {
-  background: #f4f4f4;
+.box-2{
+  display: flex;
+  
+  border: 3px solid black;
+  margin: 10px;
+  width: 600px;
+  justify-content: center;
 }
-
-.project {
-  margin: 20px 0;
-}
-
-form {
-  max-width: 400px;
-  margin: auto;
-  text-align: left;
-}
-
-form input, form textarea, form button {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
+.box-3{
+  display: flex;
+  
+  border: 3px solid black;
+  margin: 10px;
+  width: 600px;
+  justify-content: center;
 }
