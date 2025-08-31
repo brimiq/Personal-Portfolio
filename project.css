@@ -76,3 +76,11 @@ nav ul li a{
   background: #f4f4f4;
   transition: 0.3s;
 }
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+}
